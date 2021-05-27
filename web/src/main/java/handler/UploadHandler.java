@@ -64,7 +64,6 @@ public class UploadHandler extends HttpServlet{
         // 删除临时文件
         part.delete();
 
-
         resp.setContentType("text/html;charset=UTF-8");
         resp.getWriter().println("上传成功");
     }
